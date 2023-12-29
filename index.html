@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainPage">
+      <div class="scoreBox">
+        <div class="listName">
+          <ul class="uList">
+            <li id="rock">ROCK</li>
+            <li id="paper">PAPER</li>
+            <li id="scissors">SCISSORS</li>
+          </ul>
+        </div>
+        <div class="scoreBoard">
+          <div class="computerScore">
+            <p class="cText">COMPUTER SCORE</p>
+            <div id="pcScore">0</div>
+          </div>
+          <div class="humanScore">
+            <p class="hText">YOUR SCORE</p>
+            <div id="myScore">0</div>
+          </div>
+        </div>
+      </div>
+      <div id="wrapIcon"class="wrapperIcon">
+        <div class="rockECImg">
+          <img src="assests/rockEclipse.png" alt="" />
+        </div>
+        <div id="rockI" class="rockImg">
+          <img src="assests/rock.png" alt="" />
+        </div>
+        <div class="l1">
+          <img src="assests/Line1.png" alt="" />
+        </div>
+        <div class="scrEC">
+          <img src="assests/scrEC.png" alt="" />
+        </div>
+        <div id="scrI" class="scrImg">
+          <img src="assests/scissor.png" alt="" />
+        </div>
+        <div class="l3">
+          <img src="assests/Line3.png" alt="" />
+        </div>
+        <div class="l2">
+          <img src="assests/Line2.png" alt="" />
+        </div>
+
+        <div class="paperEC">
+          <img src="assests/paperEC.png" alt="" />
+        </div>
+        <div id="paperI" class="paperImg">
+          <img src="assests/paper.png" alt="" />
+        </div>
+      </div>
+
+      <div id="userEc" class="userEclipse hidden">
+        <!-- E3 E2 E4 -->
+        <div class="ue3 ">
+          <img src="assests/E3.png" alt="">
+        </div>
+        <div class="ue2 ">
+          <img src="assests/E2.png" alt="">
+        </div>
+        <div class="ue4 ">
+          <img src="assests/E4.png" alt="">
+        </div>
+      </div>
+
+      <div id="leftSide" class="left  hidden"  >
+        <span id="you-picked">YOU PICKED</span>
+      </div>
+
+    <div class="left userPicked ">
+      <div id="rockWinUs" class="rockWinUser hidden">
+        <img src="assests/rockChosenUser.png" alt="">
+
+      </div>
+      <div id="scissorWinUs" class="scissorWinUser hidden">
+        <img src="assests/scissorChosenUser.png" alt="">
+      </div>
+
+      <div id="paperWinUs" class="paperWinUser hidden">
+        <img src="assests/paperChosenUser.png" alt="">
+      </div>
+
+    </div>
+
+    <div id="answerText" class="ansText hidden">
+      <span id="text1">YOU WIN</span>
+      <span id="text2">AGAINST PC</span>
+    </div>
+
+    <div id="playbtn" class="hidden">
+      <p id="playBtnText">PLAY AGAIN</p>
+    </div>
+
+    <div id="pcEc" class="pcEclipse hidden">
+      <div class="pe3 ">
+        <img src="assests/E3.png" alt="">
+      </div>
+      <div class="pe2 ">
+        <img src="assests/E2.png" alt="">
+      </div>
+      <div class="pe4 ">
+        <img src="assests/E4.png" alt="">
+      </div> 
+    </div>
+
+    <div id="rightSide" class="right hidden" >
+      <span id="pc-picked">PC PICKED</span>
+    </div>
+
+    
+      <div id="rockWinCom" class="rockWinPc hidden">
+        <img src="assests/rockChosenUser.png" alt="">
+
+      </div>
+      <div id="scissorWinCom" class="scissorWinPc hidden">
+        <img src="assests/scissorChosenUser.png" alt="">
+      </div>
+
+      <div id="paperWinCom" class="paperWinPc hidden">
+        <img src="assests/paperChosenUser.png" alt="">
+      </div>
+
+    
+
+
+      
+      <div class="rules hidden" id="ruleList">
+        <div id="cross" class="shutdown">
+          <img src="assests/close.png" alt="X" />
+        </div>
+        <div class="game"></div>
+        <img src="assests/Frame 4.png" alt="">
+        
+      </div>
+      <button id="ruleButton" type="button" class="btn">RULES</button>
+      <a href="win.html" id="link">
+        <button id="next-button" type="button" class="next-btn hidden">NEXT</button>
+      </a>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

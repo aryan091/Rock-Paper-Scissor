@@ -1,0 +1,143 @@
+HTML,
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.mainPage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background: #8cc461;
+}
+.stars {
+  position: absolute;
+  width: 504px;
+  height: 297px;
+  left: 525px;
+  top: 65px;
+}
+
+.stars img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+}
+
+.trophy {
+  position: absolute;
+  left: 44.52%;
+  right: 42.83%;
+  top: 25.61%;
+  bottom: 47.15%;
+}
+
+.trophy img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+}
+.hurray {
+  position: absolute;
+  width: 464px;
+  height: 86px;
+  left: 560px;
+  top: 415px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 91px;
+  line-height: 107px;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.wonGame {
+  position: absolute;
+  width: 457px;
+  height: 48px;
+  left: 560px;
+  top: 525px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 48px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-wrap: nowrap;
+}
+.btn {
+    background-color: #8cc461;
+    box-sizing: border-box;
+    position: absolute;
+    width: 119px;
+    height: 40px;
+    left: 1360px;
+    top: 620px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+  
+    color: #ffffff;
+  }
+
+#playbtn {
+    display: flex;
+  position: relative;
+  width: 174px;
+  height: 44px;
+  left: 705px;
+  top: 590px;
+  background: #ffffff;
+  border-radius: 9px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #6b6b6b;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.rules {
+  height: 300px;
+  width: 270px;
+  border-radius: 10px;
+  position: absolute;
+  top: 285px;
+  left: 1200px;
+}
+  
+  #cross {
+    display: inline;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 240px;
+    top: -30px;
+  }
+  .hidden {
+    display: none;
+  }
+  #link{
+    text-decoration: none;
+  }

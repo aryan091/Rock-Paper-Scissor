@@ -1,0 +1,568 @@
+HTML,
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+
+.mainPage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background: #8cc461;
+  overflow-x: none;
+}
+.scoreBox {
+  display: flex;
+  position: relative;
+  width: 800px;
+  height: 158px;
+  top: 62px;
+  margin: auto;
+  border: 2px solid #ffffff;
+  border-radius: 13px;
+}
+.uList {
+  list-style: none;
+  margin: 5px;
+  padding: 3px;
+  position: relative;
+  left: 20px;
+}
+
+.scoreBoard {
+  width: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
+#rock {
+  
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.listName {
+  width: 50%;
+}
+.scoreBoard {
+  width: 50%;
+}
+#paper {
+
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+#scissors {
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.computerScore {
+  position: relative;
+  width: 139px;
+  height: 128px;
+  left: 20px;
+  top: 15px;
+  background: #ffffff;
+  border-radius: 9px;
+}
+.humanScore {
+  position: relative;
+  width: 139px;
+  height: 128px;
+  left: 20px;
+  top: 15px;
+  background: #ffffff;
+  border-radius: 9px;
+}
+.cText {
+  position: relative;
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  left: 20px;
+  top: -10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #656565;
+}
+.hText {
+  position: relative;
+  width: 100px;
+  text-align: center;
+  height: 20px;
+  left: 20px;
+  top: -10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #656565;
+}
+.rockECImg {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  left: 570px;
+  top: 110px;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+  transition: all 1s linear 0s;
+
+}
+.rockImg {
+  position: relative;
+  width: 80px;
+  height: 58.51px;
+  left: 610px;
+  top: 50px;
+}
+.l1 {
+  position: relative;
+  width: 133px;
+  height: 15px;
+  left: 724px;
+  top: 10px;
+  border: 0px solid rgba(0, 0, 0, 0.64);
+}
+.scrEC {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  left: 840px;
+  top: -70px;
+}
+.scrImg {
+  position: relative;
+  width: 37px;
+  height: 53.5px;
+  left: 900px;
+  top: -125px;
+  transform: rotate(5.27deg);
+}
+.l3 {
+  position: relative;
+  width: 121px;
+  height: 0px;
+  left: 688px;
+  top: -104px;
+ 
+}
+.l2 {
+  position: relative;
+  width: 107.91px;
+  height: 0px;
+  left: 817.96px;
+  top: -103px;
+}
+.paperEC {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  left: 704px;
+  top: -25px;
+}
+.paperImg {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  left: 748px;
+  top: -90px;
+}
+.btn {
+  background-color: #8cc461;
+  box-sizing: border-box;
+  position: absolute;
+  width: 119px;
+  height: 40px;
+  left: 1360px;
+  top: 620px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.next-btn {
+  background-color: #8cc461;
+  box-sizing: border-box;
+  position: absolute;
+  width: 119px;
+  height: 40px;
+  left: 1360px;
+  top: 620px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.rules {
+  height: 300px;
+  width: 270px;
+  border-radius: 10px;
+  position: absolute;
+  top: 285px;
+  left: 1200px;
+}
+
+
+#cross {
+  display: inline;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 240px;
+  top: -30px;
+}
+.hidden {
+  display: none;
+}
+#myScore {
+  position: relative;
+  width: 79px;
+  height: 63px;
+  left: 30px;
+  top: -10px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 80px;
+  text-align: center;
+
+  color: #252525;
+}
+#pcScore {
+  position: relative;
+  width: 79px;
+  height: 63px;
+  left: 30px;
+  top: -10px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 80px;
+  text-align: center;
+
+  color: #252525;
+}
+.rockWinUser {
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  left: 418px;
+  top: 375px;
+  overflow: hidden;
+  filter: drop-shadow(rgba(0, 0, 0, 0.35) -1px 1px 11px);
+}
+
+.rockWinUser img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+}
+
+.scissorWinUser {
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  left: 418px;
+  top: 375px;
+  overflow: hidden;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+}
+
+.scissorWinUser img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+}
+
+.paperWinUser {
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  left: 418px;
+  top: 375px;
+  overflow: hidden;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+}
+
+.paperWinUser img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+}
+.ansText{
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+}
+#you-picked {
+  position: absolute;
+  width: 113px;
+  height: 16px;
+  left: 460px;
+  top: 344px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+#text1 {    
+  position: absolute;
+  width: 183px;
+  height: 36px;
+  left: 705px;
+  top: 410px;
+  text-wrap: nowrap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+#text2 {
+  position: absolute;
+  width: 168px;
+  height: 31px;
+  left: 715px;
+  top: 460px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+#playbtn{
+  position: absolute;
+  width: 174px;
+  height: 44px;
+  left: 705px;
+  top: 545px;
+  background: #FFFFFF;
+  border-radius: 9px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #6B6B6B;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+ }
+
+ #pc-picked {
+  position: absolute;
+  width: 113px;
+  height: 16px;
+  left: 1025px;
+  top: 344px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.rockWinPc{
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  left: 978px;
+  top: 375px;
+  overflow: hidden;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+}
+
+.rockWinPc img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+}
+.scissorWinPc{
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  left: 978px;
+  top: 375px;
+  overflow: hidden;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+}
+
+.scissorWinPc img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+}
+.paperWinPc{
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  left: 978px;
+  top: 375px;
+  overflow: hidden;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+}
+
+.paperWinPc img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+}
+
+#link{
+  text-decoration: none;
+}
+.ue3{
+  position: relative;
+    width: 300px;
+    height: 309px;
+    left: 365px;
+    top: 160px;
+}
+.ue3 img{
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.ue2{
+
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 390px;
+  top: 350px;
+
+
+}
+
+.ue2 img{
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+.ue4{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 336px;
+  top: 300px;
+
+
+}
+.ue4 img{
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.pe3{
+  position: absolute;
+  width: 300px;
+  height: 309px;
+  left: 925px;
+  top: 325px;
+}
+.pe3 img{
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.pe2{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 950px;
+  top: 350px;
+
+
+}
+
+.pe2 img{
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+.pe4{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 900px;
+  top: 300px;
+
+
+}
+.pe4 img{
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
